@@ -2,9 +2,9 @@ import requests
 import os
 import sys
 
-REPO_OWNER = "tu_usuario"
-REPO_NAME = "mi-proyecto"
-GITHUB_TOKEN = "tu_token_privado"  # Reemplaza esto
+REPO_OWNER = "PaxNotFun"
+REPO_NAME = "gestorgta"
+GITHUB_TOKEN = "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"  # Reemplaza esto
 
 def actualizar_aplicacion():
     try:
