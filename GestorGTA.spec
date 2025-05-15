@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('version.txt', '.'), ('database.py', '.'), ('C:\\Users\\Pax\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\ttkthemes\\themes', 'ttkthemes/themes'), ('C:\\Users\\Pax\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sv_ttk', 'sv_ttk')],
+    datas=[('database.py', '.'), ('C:\\Users\\Pax\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\ttkthemes\\themes', 'ttkthemes/themes'), ('C:\\Users\\Pax\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sv_ttk', 'sv_ttk')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

@@ -4,17 +4,6 @@ from ttkthemes import ThemedTk
 import sv_ttk
 from database import ejecutar_consulta, obtener_datos
 
-try:
-    from updater import actualizar_aplicacion
-    if actualizar_aplicacion():
-        import tkinter.messagebox as msg
-        msg.showinfo("Actualización", "La aplicación se reiniciará para aplicar cambios")
-        import sys
-        import os
-        os.execl(sys.executable, sys.executable, *sys.argv)
-except Exception as e:
-    print(f"Error durante la actualización: {str(e)}")
-
 class VentanaCentrada:
     @staticmethod
     def centrar(ventana, ancho=0, alto=0):
