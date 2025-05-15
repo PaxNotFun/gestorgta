@@ -4,16 +4,16 @@ from ttkthemes import ThemedTk
 import sv_ttk
 from database import ejecutar_consulta, obtener_datos
 
-# Verificar actualizaciones al iniciar
 try:
-    import updater
-    if updater.actualizar_aplicacion():
-        print("Actualización exitosa. Reiniciando...")
+    from updater import actualizar_aplicacion
+    if actualizar_aplicacion():
+        import tkinter.messagebox as msg
+        msg.showinfo("Actualización", "La aplicación se reiniciará para aplicar cambios")
         import sys
         import os
-        os.execl(sys.executable, sys.executable, "main.py")
+        os.execl(sys.executable, sys.executable, *sys.argv)
 except Exception as e:
-    print(f"No se pudo actualizar: {str(e)}")
+    print(f"Error durante la actualización: {str(e)}")
 
 class VentanaCentrada:
     @staticmethod
