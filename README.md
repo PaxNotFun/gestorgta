@@ -1,2 +1,2 @@
 # gestorgta
-[Descargar GestorGTA](https://raw.githubusercontent.com/PaxNotFun/gestorgta/refs/heads/main/GestorGTA.exe)
+[Descargar GestorGTA TEST](https://raw.githubusercontent.com/PaxNotFun/gestorgtatest/refs/heads/main/GestorGTA.exe)
